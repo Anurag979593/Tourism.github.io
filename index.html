@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Satisfy&display=swap" rel="stylesheet">
+
+    <title>Homepage</title>{
+       
+  </head>
+  <body>
+    
+    <!-- Header design -->
+    <header>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png"></a>
+        <a class="navbar-brand" href="index.html" id="companyname">ANURAG TOURISM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">    
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" target="_blank"><span id="menu">Home</span><span class="sr-only">(current)</span></a>  
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html" target="_blank"><span id="menu">Blog</span><span class="sr-only">(current)</span></a>  
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html" target="_blank"><span id="menu">Contact Us</span><span class="sr-only">(current)</span></a>    
+            </li>
+        </div>
+    </nav>
+    </header>
+    <button type="button" onclick="changer()"><h2 class="fixed-top"><i class="fas fa-arrow-circle-right" id="arrowr"></i></h2></button>
+    <button type="button" onclick="changel()"><h2 class="fixed-top"><i class="fas fa-arrow-circle-left" id="arrowl"></i></h2></button>
+
+    <!-- background slider -->
+  
+
+
+
+
+    <!-- slider with iimages and texts -->
+    <div id="imgcar">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-interval="500">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/1.jpg" class="d-block w-100 h-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Greenwich, London , Greater London, United Kingdom</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/2.jpg" class="d-block w-100 h-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Taj Mahal, Agra, India</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/3.jpg" class="d-block w-100 h-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Dome of the Rock, Jerusalem, Israel</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/4.jpg" class="d-block w-100 h-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Millennium Bridge, London, United Kingdom</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/5.jpg" class="d-block w-100 h-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Oslo, Norvegia</h5>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>   
+      </div>
+
+      <!-- Description section -->
+      <section class="about">
+        <div class="container-fluid">
+          <h1 class="text-center text-capitalize pt-5">Description</h1>
+          <hr class="w-25 mx-auto pb-5">
+          <div class="row mb-5">
+            <div class="col-lg-6 col-md-6 col-12">
+              <img src="images/des.png" class="img-fluid" id="about">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div id="abo">
+                 <p id="abcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor 
+                 sit amet, consectetur adipisicing elit.
+                </p>
+              </div>     
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- blog section -->
+      <section>
+          <div class="container">
+            <h1 class="text-center text-capitalize pt-5">Blogs</h1>
+            <hr class="w-25 mx-auto pb-5">
+            <div class="row mb-5 text-center">
+              <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card" >
+                    <img src="images/dum1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong><i>Tourism</i></strong></h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat.</p>
+                      <a href="blog.html" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="images/dum2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong><i>Adventure</i></strong></h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat.</p>
+                      <a href="blog.html" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                  <div class="card">
+                    <img src="images/dum3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong><i>Suspense</i></strong></h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat.</p>
+                      <a href="blog.html" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              </div>
+                </div>
+          </div>
+      </section>
+
+
+      <!-- footer section -->
+      <div class="footer-top">
+            <div class="container" style="background-color: background: #333">
+              <div class="row">
+                <div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                  <img class="logo-footer" src="images/logo.png" alt="logo-footer" data-at2x="images/logo.png">
+                  <p style="font-family: 'Merienda One', cursive;">
+                   This is the place to get updates and commentary on how new technology affects the travel industry. This tourism is an excellent tool for keeping up with trends and popular sites such as social media, booking engines such as Expedia, Kayak, TripAdvisor, and much more.
+                  </p>
+                      </div>
+                <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                  <h3 style="text-align: center;">Contact</h3>
+                  <hr  style="background-color: white;">
+                      <p style="text-align: center; margin-bottom: 20px;"><i class="fas fa-map-marker-alt"></i> 215, NITH, Hamirpur, H.P.</p>
+                      <p style="text-align: center; margin-bottom: 20px;"><i class="fas fa-phone"></i> Phone: +91 7897959344</p>
+                      <p style="text-align: center; margin-bottom: 20px;"><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">anurag979593@gmail.com</a></p>
+                      <p style="text-align: center; margin-bottom: 20px;"><i class="fab fa-skype"></i> Skype: you_online</p>
+                      </div>
+                      <div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <h3 style="text-align: center;">Follow us</h3>
+                        <hr  style="background-color: white;">
+                        <p style="align-content: center;">
+                          <p id="follow"><a href="#"><i class="fab fa-facebook"></i></a> </p>
+                          <p id="follow"><a href="#"><i class="fab fa-twitter"></i></a> </p>
+                          <p id="follow"><a href="#"><i class="fab fa-google-plus-g"></i></a> </p>
+                          <p id="follow"><a href="#"><i class="fab fa-instagram"></i></a> </p>
+                          <p id="follow"><a href="#"><i class="fab fa-linkedin"></i></i></a></p>
+                        </p>
+                      </div>
+                </div>
+            </div>
+          </div>
+   
+   <!-- logic for background slider -->
+
+   <script type="text/javascript" src="main.js"></script>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
